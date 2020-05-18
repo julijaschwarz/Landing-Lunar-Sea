@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="flex-container">
+        <div class="flex-container-one">
             <div>
                 <ul class="logo">
                     <li><img src="../images/logo.svg" height="50px" alt="Логотип"></li>
@@ -20,25 +20,74 @@
             <div>
                 <nav>
                     <ul class="nav">
-                        <li>Преимущества</li>
-                        <li>О ЖК</li>
-                        <li>Места для отдыха</li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#AboutLcd">О ЖК</a></li>
+                        <li><a href="#PlacesForRest">Места для отдыха</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
+        <div class="flex-container first-block">
+            <img src="../images/logo.svg" height="100px" alt="Логотип">
+            <h1>ЖК Лунное море</h1>
+            <p>Место, откуда не хочется улетать</p>
+            <form>
+                <button>Забронировать</button>
+            </form>
+        </div>
     </header>
     <main>
-        <div class="flex-container">
-            <div class="first-block">
-                <img src="../images/logo.svg" height="100px" alt="Логотип">
-                <h1>ЖК Лунное море</h1>
-                <p>Место, откуда не хочется улетать</p>
-                <form>
-                    <button>Забронировать</button>
-                </form>
+        <section>
+            <div id="benefits" class="flex-container-two">
+
+                <div class="item">
+                    <h2>Уникальный вид</h2>
+                    <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
+                        метеоритными потоками.</p>
+                </div>
+
+                <div class="item">
+                    <h2>Инфраструктура</h2>
+                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
+                        кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+                </div>
+
+                <div class="item">
+                    <h2>Близость к Москве</h2>
+                    <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом
+                        сердце России.</p>
+                </div>
+
             </div>
-        </div>
+        </section>
+        <section>
+            <div id="AboutLcd" class="flex-container-two container-color">
+                <div class="item-2">
+                    <h2>О ЖК «Лунное море»</h2>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
+                    мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
+                    столицы и обратно.</p>
+                    <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+                </div>
+                <div class="item-img moon">
+                    <img src="../images/moon-1.jpg" width="300" alt="Луна">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="PlacesForRest" class="flex-container-two">
+                <div class="item-img moon">
+                    <img src="../images/moon-2.jpg" width="300" alt="Человек на луне">
+                </div>
+                <div class="item-2">
+                    <h2>Места для отдыха</h2>
+                    <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
+                        моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+                    <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
+                        «Лунный материк».</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 

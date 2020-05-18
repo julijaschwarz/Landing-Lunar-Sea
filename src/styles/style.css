@@ -11,14 +11,32 @@ header {
 
 }
 
-.flex-container {
+section {
+    display: flex;
+    width: 1000px;
+    background-size: 100%;
+    margin: 0 auto;
+
+    line-height: 25px;
+
+}
+
+.flex-container-one {
     display: flex;
     align-items: center;
 
 }
-.flex-container div {
+.flex-container-one div {
     width: 100%;
-    text-align: center;
+
+}
+
+.flex-container-two {
+    display: flex;
+}
+
+.container-color {
+    background-color: #f7f7f7;
 }
 
 ul {
@@ -28,8 +46,6 @@ ul {
 
     display: flex;
     align-items: center;
-    justify-content: center;
-
 }
 li {
     list-style: none;
@@ -42,12 +58,12 @@ li {
     justify-content: flex-start
 }
 
-.nav {
+.nav{
     justify-content: flex-end;
+    align-items: center;
 }
 
 .first-block {
-    display: block;
     justify-content: center;
     text-align: center;
     background: #000000 url("../../images/banner.png") center 65%;
@@ -55,11 +71,10 @@ li {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 h1 {
-    display: block;
+
     font-size: 2em;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -71,7 +86,7 @@ h1 {
 }
 
 .first-block p {
-    display: block;
+
     margin-block-start: 0px;
     margin-block-end: 0px;
     margin-inline-start: 0px;
@@ -90,5 +105,34 @@ h1 {
     background: rgba(255, 255, 255, 0);
     color: #ffffff;
     font-weight: bold;
+}
+
+.item {
+    flex: 3;
+
+    text-align: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.item-2 {
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+    margin: 25px;
 
 }
+
+.item-img {
+    flex: 1;
+    text-align: left;
+    padding: 50px;
+}
+
+.moon {
+
+    text-align: left;
+    align-self: center;
+}
+
+
