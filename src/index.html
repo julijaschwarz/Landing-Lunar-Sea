@@ -27,11 +27,11 @@
                 </nav>
             </div>
         </div>
-        <div class="flex-container first-block">
+        <div class="first-block">
             <img src="../images/logo.svg" height="100px" alt="Логотип">
             <h1>ЖК Лунное море</h1>
             <p>Место, откуда не хочется улетать</p>
-            <form>
+            <form action="#booking">
                 <button>Забронировать</button>
             </form>
         </div>
@@ -60,8 +60,8 @@
 
             </div>
         </section>
-        <section>
-            <div id="AboutLcd" class="flex-container-two container-color">
+        <section class="section-color">
+            <div id="AboutLcd" class="flex-container-two">
                 <div class="item-2">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
@@ -86,6 +86,74 @@
                     <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
                         «Лунный материк».</p>
                 </div>
+            </div>
+        </section>
+        <section id="booking" class="section-color">
+            <div class="last-block">
+                <h2>Оставьте заявку сегодня!</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>Параметры квартиры</legend>
+                        <div class="block">
+                            <div class="item-block">
+                                <label>Количество комнат</label>
+                            </div>
+                            <div class="item-block">
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="item-block">
+                                <label>Отделка</label>
+                            </div>
+                            <div class="item-block">
+                                <select>
+                                    <option>Без отделки</option>
+                                    <option>С отделкой</option>
+                                    <option>Евроремонт</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        <div class="block">
+                            <div class="item-block">
+                                <label>Имя:</label>
+                            </div>
+                            <div class="item-block">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="item-block">
+                                <label>Телефон:</label>
+                            </div>
+                            <div class="item-block">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="item-block"
+                                <label>E-mail:</label>
+                            </div>
+                            <div class="item-block">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <form>
+                    <button>Отправить</button>
+                </form>
             </div>
         </section>
     </main>

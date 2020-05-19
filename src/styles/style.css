@@ -35,7 +35,7 @@ section {
     display: flex;
 }
 
-.container-color {
+.section-color {
     background-color: #f7f7f7;
 }
 
@@ -135,4 +135,79 @@ h1 {
     align-self: center;
 }
 
+.last-block {
 
+    margin: 0 auto;
+
+    padding: 25px;
+}
+
+.last-block h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #219161;
+    border-image: initial;
+
+    width: 350px;
+    line-height: 2em;
+    margin-top: 10px;
+}
+legend {
+    color: #219161;
+    text-align: left;
+}
+
+.block {
+    display: flex;
+}
+
+.item-block {
+    flex: 1;
+    text-align: left;
+    white-space: nowrap;
+
+}
+
+select {
+    height: 25px;
+    width: 150px;
+    background-color: #ffffff;
+
+}
+
+
+input {
+    border-radius: 10px;
+    height: 20px;
+    width: 160px;
+}
+
+.last-block button {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: #f7f7f7;
+    border-color: #219161;
+    color: #219161;
+    font-weight: bold;
+    font-size: 16px;
+
+    justify-content: left;
+}
