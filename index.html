@@ -9,55 +9,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="flex header-center">
-            <div class="flex item-header">
-                <div>
-                    <img src="images/logo.svg" alt="Логотип" class="logo">
-                </div>
-                <div>
-                    <p>Лунное море</p>
-                </div>
-            </div>
-            <nav class="flex">
-                <div class="flex">
-
-                    <div class="nav"><a href="#benefits">Преимущества</a></div>
-                    <div class="nav"><a href="#AboutLcd">О ЖК</a></div>
-                    <div class="nav"><a href="#PlacesForRest">Места для отдыха</a></div>
-                </div>
-            </nav>
-        </div>
-
+    <header class="flex fixed-nav content-center">
+       <div class="flex item-header">
+           <div>
+               <img src="images/logo.svg" alt="Логотип" class="logo">
+           </div>
+           <div>
+               <p>Лунное море</p>
+           </div>
+       </div>
+        <nav class="flex">
+            <div class="nav"><a href="#benefits">Преимущества</a></div>
+            <div class="nav"><a href="#AboutLcd">О ЖК</a></div>
+            <div class="nav"><a href="#PlacesForRest">Места для отдыха</a></div>
+        </nav>
     </header>
-    <main>
-        <section class="first-block">
+
+    <main class="margin-top line-height">
+        <section class="item-0 padding-section">
             <div class="width-content margin-content">
                 <img src="images/logo.svg" alt="Логотип" class="banner">
-                <h1>ЖК «Лунное море»</h1>
-                <p>Место, откуда не хочется улетать</p>
-                <form action="#booking">
-                    <button>Забронировать</button>
-                </form>
+                <h1 class="big-h1">ЖК «Лунное море»</h1>
+                <p class="item-0-p">Место, откуда не хочется улетать</p>
+                <a href="#booking" class="link-booking">Забронировать</a>
             </div>
         </section>
 
-        <section>
+        <section class="padding-section">
             <div id="benefits" class="flex width-content margin-content">
 
-                <div class="item">
+                <div class="item-1">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
                         метеоритными потоками.</p>
                 </div>
 
-                <div class="item">
+                <div class="item-1">
                     <h2>Инфраструктура</h2>
                     <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
                         кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
 
-                <div class="item">
+                <div class="item-1">
                     <h2>Близость к Москве</h2>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом
                         сердце России.</p>
@@ -65,7 +58,7 @@
 
             </div>
         </section>
-        <section class="section-color">
+        <section class="section-color padding-section">
             <div id="AboutLcd" class="flex width-content margin-content">
                 <div class="item-2">
                     <h2>О ЖК «Лунное море»</h2>
@@ -79,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="padding-section">
             <div id="PlacesForRest" class="flex width-content margin-content">
                 <div class="item-img moon">
                     <img src="images/moon-2.jpg" alt="Человек на луне" class="images">
@@ -93,77 +86,72 @@
                 </div>
             </div>
         </section>
-        <section id="booking" class="section-color">
-            <div class="last-block margin-content">
-                <h2>Оставьте заявку сегодня!</h2>
-                <form>
-                    <fieldset>
-                        <legend>Параметры квартиры</legend>
-                        <div class="block">
-                            <div class="item-block">
-                                <label>Количество комнат</label>
-                            </div>
-                            <div class="item-block">
-                                <select>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
+        <section id="booking" class="section-color padding-section">
+
+                <h2 class="width-content text-align">Оставьте заявку сегодня!</h2>
+                <form class="width-content">
+                    <fieldset class="fieldset-booking margin-center">
+                        <legend class="legend-text">Параметры квартиры</legend>
+                        <div class="flex">
+                            <label class="item-3">Количество комнат</label>
+                            <label>
+                                <select class="item-3 field-apartment-parameters">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
                                 </select>
-                            </div>
+                            </label>
                         </div>
-                        <div class="block">
-                            <div class="item-block">
-                                <label>Отделка</label>
-                            </div>
-                            <div class="item-block">
-                                <select>
-                                    <option>Без отделки</option>
-                                    <option>С отделкой</option>
-                                    <option>Евроремонт</option>
+                        <div class="flex">
+                            <label class="item-3">Отделка</label>
+                            <label>
+                                <select class="item-3 field-apartment-parameters">
+                                        <option>Без отделки</option>
+                                        <option>С отделкой</option>
+                                        <option>Евроремонт</option>
                                 </select>
-                            </div>
+                            </label>
                         </div>
                     </fieldset>
-                </form>
+                    <fieldset class="fieldset-booking margin-center">
+                        <legend class="legend-text">Контактная информация</legend>
+                        <div class="flex">
+                            <label class="item-3">Имя:</label>
 
-                <form>
-                    <fieldset>
-                        <legend>Контактная информация</legend>
-                        <div class="block">
-                            <div class="item-block">
-                                <label>Имя:</label>
-                            </div>
-                            <div class="item-block">
-                                <input type="text">
+                            <div class="item-3">
+                                <label>
+                                    <input class="field-contact-information " type="text">
+                                </label>
                             </div>
                         </div>
-                        <div class="block">
-                            <div class="item-block">
+                        <div class="flex">
+                            <div class="item-3">
                                 <label>Телефон:</label>
                             </div>
-                            <div class="item-block">
-                                <input type="text">
+                            <div class="item-3">
+                                <label>
+                                    <input class="field-contact-information " type="text">
+                                </label>
                             </div>
                         </div>
-                        <div class="block">
-                            <div class="item-block">
+                        <div class="flex">
+                            <div class="item-3">
                                 <label>E-mail:</label>
                             </div>
-                            <div class="item-block">
-                                <input type="text">
+                            <div class="item-3">
+                                <label>
+                                    <input class="field-contact-information" type="text">
+                                </label>
                             </div>
                         </div>
                     </fieldset>
+                    <button class="button-booking">Отправить</button>
                 </form>
-                <form>
-                    <button>Отправить</button>
-                </form>
-            </div>
         </section>
     </main>
 
-    <footer class="flex-container-footer">
-        <div class="flex width-content margin-content">
+    <footer class="flex-container-footer line-height padding-section">
+        <div class="flex width-content">
 
             <div class="item-footer">
                 <div class="flex">
