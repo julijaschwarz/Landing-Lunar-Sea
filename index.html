@@ -8,17 +8,13 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="flex fixed-nav content-center">
-       <div class="flex item-header">
-           <div>
-               <img src="images/logo.svg" alt="Логотип" class="logo">
-           </div>
-           <div>
-               <p>Лунное море</p>
-           </div>
+<body class="text-dark">
+    <header class="flex header bg-white">
+       <div class="flex f-grow-3 ai-center fw-bold">
+           <img src="images/logo.svg" alt="Логотип" class="logo">
+           <p class="m-left-1em">Лунное море</p>
        </div>
-        <nav class="flex">
+       <nav class="flex ai-center fw-bold">
             <div class="nav"><a href="#benefits">Преимущества</a></div>
             <div class="nav"><a href="#AboutLcd">О ЖК</a></div>
             <div class="nav"><a href="#PlacesForRest">Места для отдыха</a></div>
@@ -26,31 +22,31 @@
     </header>
 
     <main class="margin-top line-height">
-        <section class="item-0 padding-section">
+        <section class="big-bg-section padding-top-bottom">
             <div class="width-content margin-content">
                 <img src="images/logo.svg" alt="Логотип" class="banner">
-                <h1 class="big-h1">ЖК «Лунное море»</h1>
-                <p class="item-0-p">Место, откуда не хочется улетать</p>
-                <a href="#booking" class="link-booking">Забронировать</a>
+                <h1 class="big-h1 text-white">ЖК «Лунное море»</h1>
+                <p class="big-bg-section-p text-white">Место, откуда не хочется улетать</p>
+                <a class="btn btn-link text-white" href="#booking">Забронировать</a>
             </div>
         </section>
 
-        <section class="padding-section">
-            <div id="benefits" class="flex width-content margin-content">
+        <section class="padding-top-bottom">
+            <div id="benefits" class="flex width-content margin-content padding-top-bottom">
 
-                <div class="item-1">
+                <div class="m-right-20 text-al-left wh-30 m-left-1em">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
                         метеоритными потоками.</p>
                 </div>
 
-                <div class="item-1">
+                <div class="m-right-20 text-al-left wh-30 m-left-1em">
                     <h2>Инфраструктура</h2>
                     <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
                         кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
 
-                <div class="item-1">
+                <div class="m-right-20 text-al-left wh-30 m-left-1em">
                     <h2>Близость к Москве</h2>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом
                         сердце России.</p>
@@ -58,9 +54,9 @@
 
             </div>
         </section>
-        <section class="section-color padding-section">
+        <section class="bg-grey padding-top-bottom">
             <div id="AboutLcd" class="flex width-content margin-content">
-                <div class="item-2">
+                <div class="wh-60 m-left-4em">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
                     мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
@@ -72,12 +68,12 @@
                 </div>
             </div>
         </section>
-        <section class="padding-section">
+        <section class="padding-top-bottom">
             <div id="PlacesForRest" class="flex width-content margin-content">
                 <div class="item-img moon">
                     <img src="images/moon-2.jpg" alt="Человек на луне" class="images">
                 </div>
-                <div class="item-2">
+                <div class="wh-60 m-left-4em">
                     <h2>Места для отдыха</h2>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
                         моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -86,16 +82,16 @@
                 </div>
             </div>
         </section>
-        <section id="booking" class="section-color padding-section">
-
-                <h2 class="width-content text-align">Оставьте заявку сегодня!</h2>
-                <form class="width-content">
+        <section id="booking" class="bg-grey padding-top-bottom">
+            <div class="width-content">
+                <h2 class="text-align-center">Оставьте заявку сегодня!</h2>
+                <form>
                     <fieldset class="fieldset-booking margin-center">
                         <legend class="legend-text">Параметры квартиры</legend>
                         <div class="flex">
-                            <label class="item-3">Количество комнат</label>
+                            <label class="wh-50 text-al-left">Количество комнат</label>
                             <label>
-                                <select class="item-3 field-apartment-parameters">
+                                <select class="wh-50 text-al-left field-apartment-parameters bg-white">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -103,9 +99,9 @@
                             </label>
                         </div>
                         <div class="flex">
-                            <label class="item-3">Отделка</label>
+                            <label class="wh-50 text-al-left">Отделка</label>
                             <label>
-                                <select class="item-3 field-apartment-parameters">
+                                <select class="wh-50 text-al-left field-apartment-parameters bg-white">
                                         <option>Без отделки</option>
                                         <option>С отделкой</option>
                                         <option>Евроремонт</option>
@@ -116,61 +112,56 @@
                     <fieldset class="fieldset-booking margin-center">
                         <legend class="legend-text">Контактная информация</legend>
                         <div class="flex">
-                            <label class="item-3">Имя:</label>
+                            <label class="wh-50 text-al-left">Имя:</label>
 
-                            <div class="item-3">
+                            <div class="wh-50 text-al-left">
                                 <label>
                                     <input class="field-contact-information " type="text">
                                 </label>
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="item-3">
+                            <div class="wh-50 text-al-left">
                                 <label>Телефон:</label>
                             </div>
-                            <div class="item-3">
+                            <div class="wh-50 text-al-left">
                                 <label>
                                     <input class="field-contact-information " type="text">
                                 </label>
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="item-3">
+                            <div class="wh-50 text-al-left">
                                 <label>E-mail:</label>
                             </div>
-                            <div class="item-3">
+                            <div class="wh-50 text-al-left">
                                 <label>
                                     <input class="field-contact-information" type="text">
                                 </label>
                             </div>
                         </div>
                     </fieldset>
-                    <button class="button-booking">Отправить</button>
+                    <button class="btn btn-booking bg-grey">Отправить</button>
                 </form>
+            </div>
         </section>
     </main>
 
-    <footer class="flex-container-footer line-height padding-section">
+    <footer class="bg-dark text-white jc-center line-height padding-top-bottom">
         <div class="flex width-content">
 
-            <div class="item-footer">
-                <div class="flex">
-                    <div>
-                        <img src="images/logo.svg" alt="Логотип" class="logo">
-                    </div>
-
-                    <div>
-                        <p>Лунное море</p>
-                    </div>
+            <div class="wh-30 m-left-1em">
+                <div class="flex ai-center fw-bold">
+                    <img src="images/logo.svg" alt="Логотип" class="logo">
+                    <p class="m-left-1em">Лунное море</p>
                 </div>
 
                 <div class="copy">
                     <div>&copy; <time datetime="2032">2032 год</time></div>
                 </div>
-
             </div>
 
-            <div class="item-footer">
+            <div class="wh-30 m-left-1em">
                 <h4>Проектная документация</h4>
                 <ul>
                     <li><a>Скачать</a></li>
@@ -178,7 +169,7 @@
                 </ul>
             </div>
 
-            <div class="item-footer">
+            <div class="wh-30 m-left-1em">
                 <h4>О застройщике</h4>
                 <ul>
                     <li><a>Отзывы</a></li>
