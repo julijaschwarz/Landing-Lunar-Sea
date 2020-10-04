@@ -1,0 +1,26 @@
+{
+  "name": "project-layout-designer-1",
+  "version": "1.0.0",
+  "description": "This is the first project by profession as a typesetter on Hexlet.io",
+  "main": "index.js",
+  "dependencies": {
+    "htmlhint": "^0.14.0",
+    "stylelint": "^13.7.2"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julijaschwarz/layout-designer-project-lvl1.git"
+  },
+  "author": "Juls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julijaschwarz/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/julijaschwarz/layout-designer-project-lvl1#readme"
+}
