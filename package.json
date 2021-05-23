@@ -5,7 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "htmlhint": "^0.14.0",
-    "stylelint": "^9.3.0"
+    "stylelint": "^9.3.0",
+    "trim": "^0.0.3",
+    "postcss": "^8.3.0",
+    "yargs-parser": "^13.1.2"
   },
   "devDependencies": {
     "stylelint-config-standard": "^18.3.0"
