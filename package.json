@@ -1,29 +1,26 @@
 {
-  "name": "project-layout-designer-1",
+  "name": "landing-lunar-sea",
   "version": "1.0.0",
   "description": "This is the first project by profession as a typesetter on Hexlet.io",
-  "main": "index.js",
-  "dependencies": {
-    "htmlhint": "^0.14.0",
-    "stylelint": "^9.3.0",
-    "trim": "^0.0.3",
-    "postcss": "^8.3.0",
-    "yargs-parser": "^13.1.2"
+  "private": true,
+  "scripts": {
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:html": "htmlhint \"**/*.html\"",
+    "lint": "npm run lint:css && npm run lint:html"
   },
   "devDependencies": {
-    "stylelint-config-standard": "^18.3.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "htmlhint": "^1.9.2",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julijaschwarz/layout-designer-project-lvl1.git"
+    "url": "git+https://github.com/julijaschwarz/Landing-Lunar-Sea.git"
   },
   "author": "Juls",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julijaschwarz/layout-designer-project-lvl1/issues"
+    "url": "https://github.com/julijaschwarz/Landing-Lunar-Sea/issues"
   },
-  "homepage": "https://github.com/julijaschwarz/layout-designer-project-lvl1#readme"
+  "homepage": "https://github.com/julijaschwarz/Landing-Lunar-Sea#readme"
 }
