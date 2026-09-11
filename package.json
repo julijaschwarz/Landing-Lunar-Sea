@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "htmlhint": "^1.9.2",
-    "stylelint": "^17.14.1",
+    "stylelint": "^17.15.0",
     "stylelint-config-standard": "^40.0.0"
   },
   "repository": {
